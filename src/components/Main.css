@@ -1,0 +1,80 @@
+.Main {
+    margin-top: 125px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.left {
+    width: 100%;
+    margin-top: 50px;
+    animation: fade-up 1.0s;
+}
+
+.name {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.words {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    left: 0;
+}
+
+.contact {
+    color: #FCD962;
+    text-decoration: none;
+    font-family: 'Work Sans';
+    transition: 0.3s filter;
+    position: relative;
+}
+
+.contact:hover {
+    filter: brightness(105%);
+}
+
+.contact:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    left: 0;
+    bottom: -5px;
+    background: #FCD962;
+    width: 35px;
+    transition: 0.3s width;
+}
+
+.contact:hover:after {
+    width: 100%;
+}
+
+.portrait {
+    height: 100%;
+    margin-left: 20px;
+    width: 50%;
+    animation: fade-in 1.0s;
+}
+
+@media only screen and (max-width: 1023px) {
+    .portrait {
+        margin-top: 50px;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Main {
+        margin-top: 80px;
+        display: block;
+    }
+
+    .portrait {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contact {
+        display: none;
+    }
+}

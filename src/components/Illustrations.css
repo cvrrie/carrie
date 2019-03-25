@@ -1,0 +1,32 @@
+.Illustrations {
+  margin-top: 125px;
+  animation:  fade-in 1.0s;
+  margin-bottom: 100px;
+}
+
+.image {
+  height: 300px;
+  display: block;
+  margin: 80px auto 20px auto;
+  animation:  fade-in 1.0s;
+}
+
+.spin {
+  animation: image-spin infinite 20s linear;
+}
+
+@keyframes image-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+  
+@media only screen and (max-width: 767px) {
+  .image {
+    max-width: 100%;
+    height: auto;
+  }
+}

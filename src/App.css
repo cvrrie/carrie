@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  padding: 20px 10%;
+  position: relative;
+  height: 100%;
+  max-width: 1000px;
+  margin: auto;
+  animation: fade-in 1.0s;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 35px;
+  width: 125px;
+  height: auto;
+}
+
+.logo:hover {
+  filter: brightness(105%);
+}
+
+.illustrations {
+  position: absolute;
+  top: 30px;
+  right: 35px;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'Work Sans';
+  transition: 0.1s color;
+}
+
+.illustrations:hover {
+  color: #FCD962;
+}
+
+.selected {
+  color: #FCD962;
+}
