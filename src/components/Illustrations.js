@@ -19,7 +19,7 @@ class Illustrations extends PureComponent {
       <div className="Illustrations">
 
        <h1></h1>
-        <h1 class="title"> I recently downloaded Illustrator and Procreate and am having a thrill of a time. Here are a few of the projects I've made. </h1>
+        <h1 class="title"> I recently downloaded Illustrator and Procreate and am having a thrill of a time. Here are a few of the projects I&#39;ve made. </h1>
         
         <img src={birdy} className="image" alt="birdy" />
         <p>Each stroke on this adorable fluff was a pain to draw. In fact, this constituted a major motivation to switch from drawing on my iPad to Illustrator.</p>
@@ -34,7 +34,7 @@ class Illustrations extends PureComponent {
         <p>A blazing 7:46pm Montreal August sun. Kind of a prelude to my solar system design below. If you watch it, the sun is actually rotating (cool React/Javascript animation right?) </p>  
         
         <img src={planet} className="image" alt="planet" />
-        <p>Glass planet, inspired by a post on Dribbble. The funnest thing was experimenting with blending modes - my favourite effect is definitely Colour Dodge with that planet in the right corner. </p>
+        <p>Glass planet, inspired by a post on Dribbble. The funnest thing was experimenting with blending modes - my favourite effect is Colour Dodge with that planet in the right corner. </p>
        
         <img src={teddy_sailing} className="image" alt="teddy_sailing" />
         <p>I was so enamoured by the glass planet that I made a variation on it - this time a lonely but optimistic teddy bear sails on turbulent waters. This is how it turned out.</p>
