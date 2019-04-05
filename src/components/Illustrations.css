@@ -1,14 +1,19 @@
 .Illustrations {
   margin-top: 125px;
   animation:  fade-in 1.0s;
-  margin-bottom: 100px;
+  padding-bottom: 200px;
+  width: 400px;
+  text-align: center; 
+  font-size: 13px;
+  margin: 0 auto;
+  padding-top: 200px;
 }
 
 .image {
-  height: 300px;
-  display: block;
-  margin: 80px auto 20px auto;
+  margin: 50px auto;
   animation:  fade-in 1.0s;
+  width: 400px;
+  max-width: calc(100%-20px);
 }
 
 .spin {
@@ -29,4 +34,9 @@
     max-width: 100%;
     height: auto;
   }
+}
+
+.title {
+  font-size: 20px;
+  font-family: "Playfair Display";
 }

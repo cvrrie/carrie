@@ -22,6 +22,7 @@ class App extends PureComponent {
             </Link>
             <NavLink to="/illustrations" className="illustrations" activeClassName="selected">
               illustrations
+              
             </NavLink>
           </div>
           <Switch>
