@@ -22,19 +22,20 @@
     left: 0;
 }
 
-.contact {
+.underlined-button {
     color: #FCD962;
     text-decoration: none;
     font-family: 'Work Sans';
     transition: 0.3s filter;
     position: relative;
+    margin-bottom: 50px;
 }
 
-.contact:hover {
+.underlined-button:hover {
     filter: brightness(105%);
 }
 
-.contact:after {
+.underlined-button:after {
     content: "";
     position: absolute;
     height: 4px;
@@ -45,7 +46,7 @@
     transition: 0.3s width;
 }
 
-.contact:hover:after {
+.underlined-button:hover:after {
     width: 100%;
 }
 

@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import { Link } from "react-router-dom";
 
 import './Main.css';
 import carrie from '../img/carrie.svg';
@@ -13,9 +14,9 @@ class Main extends PureComponent {
             <div className="words">
                 aspiring artist and product designer
             </div>
-            <a href="mailto:carrierong37@gmail.com" className="contact">
-                CONTACT
-            </a>
+            <Link to="/illustrations" className="underlined-button">
+              ILLUSTRATIONS
+            </Link>
         </div>
         <img src={carrie} className="portrait" alt="carrie" />
       </div>

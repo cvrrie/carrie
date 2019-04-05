@@ -11,7 +11,7 @@
 .logo {
   position: absolute;
   top: 30px;
-  left: 35px;
+  left: 45px;
   width: 125px;
   height: auto;
 }
@@ -20,20 +20,39 @@
   filter: brightness(105%);
 }
 
-.illustrations {
+.navlinks {
   position: absolute;
   top: 30px;
-  right: 35px;
+  right: 45px;
+}
+
+.navlink {
+  font-size: 0.7rem;
+  margin-left: 40px;
   text-decoration: none;
   color: #000000;
   font-family: 'Playfair Display';
   transition: 0.1s color;
 }
 
-.illustrations:hover {
+.navlink:hover {
   color: #FCD962;
 }
 
 .selected {
   color: #FCD962;
+}
+
+@media only screen and (max-width: 424px) {
+  .logo {
+    left: 30px;
+  }
+
+  .navlinks {
+    right: 30px;
+  }
+
+  .navlink {
+    margin-left: 30px;
+  }
 }

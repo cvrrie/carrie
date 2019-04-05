@@ -31,7 +31,7 @@ class Illustrations extends PureComponent {
         <p>I initially wanted to create an entire mock Facebook sticker set with this worm. But if you really think about it, there are only so many emotions you can convey with a worm. Will definitely revisit this project later.</p>
        
         <img src={sunny} className="image spin" alt="sunny" />
-        <p>A blazing 7:46pm Montreal August sun. Kind of a prelude to my solar system design below. If you watch it, the sun is actually rotating (cool React/Javascript animation right?) </p>  
+        <p>A blazing 7:46pm Montreal August sun. Kind of a prelude to my solar system design below. If you watch it, the sun is actually rotating ;) </p>  
         
         <img src={planet} className="image" alt="planet" />
         <p>Glass planet, inspired by a post on Dribbble. The funnest thing was experimenting with blending modes - my favourite effect is Colour Dodge with that planet in the right corner. </p>

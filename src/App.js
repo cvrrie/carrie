@@ -20,10 +20,14 @@ class App extends PureComponent {
                 onClick={() => {}}
               />
             </Link>
-            <NavLink to="/illustrations" className="illustrations" activeClassName="selected">
-              illustrations
-              
-            </NavLink>
+            <div className="navlinks">
+              <NavLink to="/illustrations" activeClassName="selected" className="navlink">
+                illustrations
+              </NavLink>
+              <a href="mailto:carrierong37@gmail.com" className="navlink">
+                contact
+              </a>
+            </div>
           </div>
           <Switch>
             <Route exact path="/" component={Main} />
