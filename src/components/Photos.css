@@ -1,0 +1,23 @@
+.photos {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: calc(50% - 8px);
+    max-width: calc(50% - 8px);
+    padding: 0 4px;
+}
+
+.col .photo {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+

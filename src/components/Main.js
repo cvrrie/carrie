@@ -8,17 +8,21 @@ class Main extends PureComponent {
   render() {
     return (
       <div className="Main">
-        <div className="left">
-            <h1 className="name">hello,</h1>
-            <h1 className="name">i'm carrie.</h1>
-            <div className="words">
-                aspiring artist and product designer
-            </div>
-            <Link to="/illustrations" className="underlined-button">
-              ILLUSTRATIONS
-            </Link>
+        <div className="intro">
+          <div className="left">
+              <h1 className="name">Hey, I'm Carrie!</h1>
+              <div className="words">
+                I'm currently a student at McGill University studying Physiology. I'm also interested in UX/UI design and love finding simple, powerful, and smart solutions to complex challenges. 
+              </div>
+              <a href="mailto:carrierong37@gmail.com" className="underlined-button">Drop me a hi!</a>
+              <div className="words2"> hi.</div>
+          </div>
+          <img src={carrie} className="portrait" alt="carrie" />
         </div>
-        <img src={carrie} className="portrait" alt="carrie" />
+        <div className="projects">
+        hiihihihihi
+
+        </div>
       </div>
     );
   }

@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans:400,500');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
 
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Playfair Display', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   font-size: 20px;
@@ -12,11 +14,14 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+words {
+  font-size: 12px;
+}
 h1 {
-  font-family: 'Work Sans';
+  font-family: 'Karla';
   font-weight: 500;
-  font-size: 4.0rem;
-  margin: 0;
+  font-size: 2.5rem;  
+  
 }
 
 #root {
@@ -25,7 +30,7 @@ h1 {
 
 @media only screen and (max-width: 767px) {
   body, html {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   h1 {

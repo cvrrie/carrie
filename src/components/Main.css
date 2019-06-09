@@ -1,31 +1,46 @@
 .Main {
     margin-top: 125px;
+    text-align: left;
+}
+
+.intro {
     display: flex;
     flex-direction: row;
-    text-align: left;
 }
 
 .left {
     width: 100%;
     margin-top: 50px;
-    animation: fade-up 1.0s;
+    animation: fade-up  1.0s;
 }
 
 .name {
     display: inline-block;
     margin-right: 10px;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    margin-bottom: 10px;
 }
 
 .words {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    left: 0;
+    font-size: 14px;
+}
+
+.words2 {
     margin-top: 30px;
     margin-bottom: 40px;
     left: 0;
+    font-size: 14px;
 }
 
 .underlined-button {
     color: #FCD962;
     text-decoration: none;
-    font-family: 'Work Sans';
+    font-family: 'Karla';
+    font-size: 13px;
     transition: 0.3s filter;
     position: relative;
     margin-bottom: 50px;
@@ -38,11 +53,12 @@
 .underlined-button:after {
     content: "";
     position: absolute;
-    height: 4px;
+    height: 2px;
     left: 0;
     bottom: -5px;
     background: #FCD962;
-    width: 35px;
+    width: 15px;
+    border-radius: 10%;
     transition: 0.3s width;
 }
 
@@ -57,6 +73,10 @@
     animation: fade-in 1.0s;
 }
 
+.projects {
+    margin-top: 200px;
+
+}
 @media only screen and (max-width: 1023px) {
     .portrait {
         margin-top: 50px;
