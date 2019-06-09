@@ -1,0 +1,105 @@
+@import "../variables.scss";
+
+.Main {
+    margin-top: 125px;
+    text-align: left;
+
+    .intro {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .left {
+        width: 100%;
+        margin-top: 50px;
+        animation: fade-up  1.0s;
+    }
+
+    .name {
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: 900;
+        letter-spacing: 1.2px;
+        margin-bottom: 10px;
+    }
+
+    .words {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        left: 0;
+        font-size: 14px;
+    }
+
+    .words2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        left: 0;
+        font-size: 14px;
+    }
+
+    .underlined-button {
+        color: $yellow;
+        text-decoration: none;
+        font-family: 'Karla';
+        font-size: 13px;
+        transition: 0.3s filter;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .underlined-button:hover {
+        filter: brightness(105%);
+    }
+
+    .underlined-button:after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        left: 0;
+        bottom: -5px;
+        background: $yellow;
+        width: 15px;
+        border-radius: 10%;
+        transition: 0.3s width;
+    }
+
+    .underlined-button:hover:after {
+        width: 100%;
+    }
+
+    .portrait {
+        height: 100%;
+        margin-left: 20px;
+        width: 50%;
+        animation: fade-in 1.0s;
+    }
+
+    .projects {
+        margin-top: 200px;
+    }
+
+    .heading {
+        padding-top: 40px;
+    }
+
+    .projectCard {
+        margin: 40px 0;
+        margin-bottom: 1000px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .Main {
+        margin-top: 80px;
+        display: block;
+
+        .portrait {
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        .contact {
+            display: none;
+        }
+    }
+}

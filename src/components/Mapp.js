@@ -55,6 +55,12 @@ class Mapp extends PureComponent {
           </div>
           <div className="section">
             <h2 className="heading">Product Strategy</h2>
+            <p>
+              From a business standpoint, I think of UX design as a way to problem solve. My role as a designer is to 
+              develop an experience that maximizes both the quality of the user’s experience and the return on investment 
+              for the business that the product is serving. 
+            </p>
+            
           </div>
         </div>
       </div>
