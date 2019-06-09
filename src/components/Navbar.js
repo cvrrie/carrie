@@ -25,7 +25,7 @@ class Navbar extends PureComponent {
             Illustrations
           </NavLink>
 
-          <a href="mailto:carrierong37@gmail.com" className="navlink">
+          <a href="/Resume.pdf" className="navlink" target="_blank">
             Resume
           </a>
         </div>
