@@ -2,6 +2,7 @@ $mappColor: #43C6AC;
 $gray: #707070;
 $yellow: #FCD962;
 $black: #1e272e;
+$white: #ffffff;
 
 @mixin subtitle {
     font-size: 14px;
@@ -9,20 +10,17 @@ $black: #1e272e;
 }
 
 @mixin body {
-    line-height: 1.6;
-    font-size: 13px;
-    letter-spacing: 1px;
+    line-height: 1.75;
+    font-size: 14px;
 }
 
 @mixin question {
-    font-size: 22px;
+    font-size: 14px;
     text-align: left;
-    font-weight: 400;
-    color: #707070;
     font-weight: 600;
-    border-left: 5px solid $gray;
+    color: $gray;
+    border-left: 4px solid $gray;
     padding-left: 20px;
-  
 }
 
 @mixin heading {
@@ -33,5 +31,19 @@ $black: #1e272e;
 }
 
 @mixin section {
-    margin: 125px auto;
+    margin: 40px auto;
+}
+
+@mixin number {
+    text-align: center;
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 10px;
+    background: $mappColor;
+    color: $white;
+    font-weight: 600;
+    margin: 0 12px auto 30px;
+    font-style: normal;
+    min-width: 7px;
+    max-height: 20px;
 }

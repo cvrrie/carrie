@@ -2,10 +2,10 @@
 
 .mapp {
     margin: 175px auto 150px auto;
-    max-width: 1000px;
+    max-width: 800px;
 
     .title {
-        margin-bottom: 0;
+        margin: 0;
         text-align: left;
         font-size: 70px;
         color: $gray;
@@ -27,17 +27,19 @@
     }
 
     .description {
-        max-width: 50%;
-        margin: 50px 0 200px 0;
+        margin: 50px 0 0 0;
         @include body;
+
+        @media only screen and (max-width: 767px) {
+            margin-bottom: 0;
+        }    
     }
 
     .body {
-        max-width: 85%;
         text-align: left;
         font-size: 14px;
         color: $gray;
-        margin-top: 20px;
+        margin-top: 10px;
         @include body;
     }
 
@@ -53,5 +55,94 @@
 
     .section {
         @include section;
+    }
+
+    .number {
+        display: inline;
+        @include number;
+    }
+
+    .item {
+        vertical-align: middle;
+        margin-top: 3px;
+    }
+
+    .list {
+        margin: 10px 0;
+        display: flex;
+    }
+
+    .subtitles {
+        @include subtitle;
+        font-size: 17px;
+        color: $gray;
+        text-transform: uppercase;
+        margin: 30px 0 20px 0;
+    }
+
+    li {
+        list-style-position: outside;
+    }
+
+    .introduction {
+        display: flex;
+
+        @media only screen and (max-width: 767px) {
+            display: block;
+        }    
+    }
+    
+    .left {
+        min-width: 450px;
+        margin-right: 50px;
+        text-align: left;
+        background: #FFFFFF;
+    }
+
+    .right {
+        img {
+            width: 300px;
+            margin: 0;
+            max-width: 300px;
+        }
+
+        display: inline-block;
+        @media only screen and (max-width: 767px) {
+            display: block;
+        }
+    }
+
+    .icon {
+        max-width: 150px;
+        width: 75px;
+        border-radius: 30px;
+        box-shadow: 5px 10px 40px 0 rgba(148,148,148,0.2);
+        margin-bottom: 15px;
+    }
+
+    .image {
+        margin-top: 40px;
+    }
+
+    .persona {
+        display: flex;
+
+        .image {
+            display: inline-block;
+            width: 250px;
+            max-width: 250px;
+            max-height: 364px;
+            margin-right: 40px;
+            margin-top: 0;
+        }
+
+        @media only screen and (max-width: 767px) {
+            display: block;
+
+            .image {
+                display: block;
+                margin: auto;
+            }
+        }
     }
 }

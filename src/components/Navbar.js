@@ -16,11 +16,11 @@ class Navbar extends PureComponent {
           <NavLink to="/" className="navlink" onClick={() => this.props.setScroll()}>
             Projects
           </NavLink>
-
+          {/*
           <NavLink to="/photos" activeClassName="selected" className="navlink">
             Photos
           </NavLink>
-
+          */}
           <NavLink to="/illustrations" activeClassName="selected" className="navlink">
             Illustrations
           </NavLink>

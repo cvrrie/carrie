@@ -1,17 +1,17 @@
 import React, { PureComponent } from 'react';
 
-import sunny from '../img/sunny.svg';
-import planet from '../img/planet.png';
-import banana from '../img/banana.svg';
-import dragonfruit from '../img/dragonfruit.png';
-import house from '../img/house.png';
-import teddy_sailing from '../img/teddy_sailing.png';
-import worm from '../img/worm.png';
-import fire from '../img/fire.png';
-import birdy from '../img/birdy.png';
-import bike from '../img/bike.png';
-import ocean from '../img/ocean.png';
-import './Illustrations.css';
+import sunny from '../img/illustrations/sunny.png';
+import planet from '../img/illustrations/planet.png';
+import banana from '../img/illustrations/banana.png';
+import dragonfruit from '../img/illustrations/dragonfruit.png';
+import house from '../img/illustrations/house.png';
+import teddy_sailing from '../img/illustrations/teddy_sailing.png';
+import worm from '../img/illustrations/worm.png';
+import fire from '../img/illustrations/fire.png';
+import birdy from '../img/illustrations/birdy.png';
+import bike from '../img/illustrations/bike.png';
+import ocean from '../img/illustrations/ocean.png';
+import './Illustrations.scss';
 
 class Illustrations extends PureComponent {
   render() {
@@ -21,9 +21,9 @@ class Illustrations extends PureComponent {
         <h1 className="title">Illustrations</h1>
     
         <img src={birdy} className="image" alt="birdy" />
-        <p></p>
+        <br/>
         
-        <img src={banana} className="image" alt="banana" />
+        {/*<img src={banana} className="image" alt="banana" />*/}
         <p></p>
 
         <img src={worm} className="image" alt="worm" />

@@ -1,0 +1,43 @@
+.Illustrations {
+  margin-top: 125px;
+  animation:  fade-in 1.0s;
+  padding-bottom: 200px;
+  width: 400px;
+  max-width: 100%;
+  text-align: center; 
+  font-size: 13px;
+  margin: 0 auto;
+  padding-top: 200px;
+
+  .image {
+    margin: 50px auto;
+    animation:  fade-in 1.0s;
+    width: 400px;
+    max-width: calc(100%-20px);
+  }
+  
+  .spin {
+    animation: image-spin infinite 20s linear;
+  }
+  
+  @keyframes image-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    
+  @media only screen and (max-width: 767px) {
+    .image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .title {
+    font-size: 20px;
+    font-family: "Karla";
+  }
+}
