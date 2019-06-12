@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 .Illustrations {
   margin-top: 125px;
   animation:  fade-in 1.0s;
@@ -37,7 +39,11 @@
   }
   
   .title {
-    font-size: 20px;
-    font-family: "Karla";
+    @include title;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0;
+    letter-spacing: 0.8px;
+    color: $yellow;
   }
 }

@@ -53,9 +53,11 @@ class App extends PureComponent {
               <Route path="/mapp" component={Mapp} />
               <Route exact path="/photos" component={Photos} />
             </Switch>
+            <div className="credits">
+              <a href="https://github.com/cvrrie" className="creditLink">Designed and coded with love</a>
+              © Carrie Rong 2019
+            </div>
           </div>
-          <a href="https://github.com/cvrrie" className="credits">Designed and coded with love  </a>
-          <p className="credits2">©  Carrie Rong 2019</p>
         </ScrollToTop>
       </Router>
     );

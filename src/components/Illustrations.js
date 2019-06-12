@@ -2,7 +2,6 @@ import React, { PureComponent } from 'react';
 
 import sunny from '../img/illustrations/sunny.png';
 import planet from '../img/illustrations/planet.png';
-import banana from '../img/illustrations/banana.png';
 import dragonfruit from '../img/illustrations/dragonfruit.png';
 import house from '../img/illustrations/house.png';
 import teddy_sailing from '../img/illustrations/teddy_sailing.png';
