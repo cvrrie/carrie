@@ -47,3 +47,21 @@ $white: #ffffff;
     min-width: 7px;
     max-height: 20px;
 }
+
+@mixin credits {
+    min-height: 100%;
+    bottom: -520px;
+    margin-bottom: 30px;
+    display: block;
+    font-size: 14px;
+    bottom: 0;
+    width:100%;
+   
+}
+
+@mixin title {
+    padding-top: 0px;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-top: 80px;
+}

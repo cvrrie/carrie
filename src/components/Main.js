@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import './Main.scss';
 import carrie from '../img/carrie.svg';
+import mappProjectBox from '../img/mapp/mapp-project-box.png';
 
 class Main extends PureComponent {
   constructor(props) {
@@ -44,16 +45,21 @@ class Main extends PureComponent {
                   I'm currently a student at McGill University studying Physiology. I'm also interested in UX/UI design and love finding simple, powerful, and smart solutions to complex challenges. 
                 </div>
                 <a href="mailto:carrierong37@gmail.com" className="underlined-button">Drop me a hi!</a>
-                
             </div>
             <img src={carrie} className="portrait" alt="carrie" />
           </div>
           <div className="projects">
             <h2 className="heading" ref={this.projectsRef}>PROJECTS</h2>
-            <div className="parallax"></div>
             <div className="projectCard">
+              <div className="cardLeft">
+                <div className="title">MAPP</div>
+                <div className="words">A location based daily tracker app design.</div>
+                <Link to="/mapp" className="underlined-button">See UX case study &rarr;</Link>
+              </div>
+              <div className="cardRight">
+                <img className="projectImage" src={mappProjectBox} alt="mapp project image"/>
+              </div>
               
-              <Link to="/mapp" className="project">MAPP</Link>
             </div>
           </div>
         </div>

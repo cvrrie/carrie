@@ -28,6 +28,7 @@ class Navbar extends PureComponent {
           <a href="/Resume.pdf" className="navlink" target="_blank">
             Resume
           </a>
+          
         </div>
       </div>
     );

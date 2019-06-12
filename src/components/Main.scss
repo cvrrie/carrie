@@ -1,9 +1,8 @@
 @import "../variables.scss";
 
 .Main {
-    margin-top: 125px;
+    margin-top: 145px;
     text-align: left;
-    margin-bottom: 125px;
 
     .intro {
         display: flex;
@@ -18,14 +17,14 @@
 
     .name {
         display: inline-block;
-        margin-right: 10px;
+        margin: 30px 10px 30px 0;
         font-weight: 900;
         letter-spacing: 1.2px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .words {
-        margin-top: 10px;
+        margin-top: 38px;
         margin-bottom: 40px;
         left: 0;
         font-size: 14px;
@@ -76,53 +75,72 @@
     }
 
     .projects {
-        margin-top: 200px;
-        margin-bottom: 125px;
+        margin-top: 0px;
+        margin-bottom: 200px;
     }
 
     .heading {
-        padding-top: 60px;
-        letter-spacing: 2px;
-        font-size: 22px;
+       @include title;
+       color: $yellow;
     }
 
     .projectCard {
-        margin: 40px 0;
-        margin-bottom: 40px;
+        margin: 70px 0 90px 50px;
+        padding: 0px 50px 0 50px;
+        display: flex;
+        max-width: 700px;
+        height: 250px;
+     
+        background-color: #fdfdfd;
+
+        .title {
+            font-weight: 600;
+            font-size: 22px;
+            letter-spacing: 2px;
+        }
+
+        .text {
+            margin: 20px 0;
+        }
+
+        .link {
+            color: $yellow;
+        }
+    
+        .link:hover {
+            filter: brightness(90%);
+        }
+
+        .cardLeft {
+            margin: auto;
+            margin-left: 20px;
+        }
+
+        .cardRight {
+            max-width: 175px;
+            margin-left: 20px;
+            margin-top: 15px;
+            margin-right: 30px;
+
+            img {
+                width: 100%;
+                height: auto;
+            }    
+        }
+    }
+    
+    .credits {
+       @include credits;
+        text-decoration: none;
+        color: $yellow;
+    }
+
+    .credits2 {
+        @include credits;
+        margin-left: 200px;
     }
 }
 
-    .projectCard {
-        //max-width: 100%;
-        width: 0px;
-        height: 300px;
-        border-radius: 30px;
-        //box-shadow: 5px 10px 40px 0 rgba(148,148,148,0.2);
-        margin-bottom: 15px;
-       background: #eaeaea;
-        color: $mappColor;
-    }
-
-    .projectCard:hover {
-        filter: brightness(95%);
-        
-    }
-
-    .project {
-        background-color: #fefefe;
-        color: black;
-        padding: 200px 470px;
-        margin: 20px 0 40px 0;
-        margin-bottom: 30px;
-        display: inline-block;
-        text-align: left;
-        text-decoration: none;
-        border-radius: 30px;
-    }
-
-    .parallax {
-        background-image: url(../img/mapp/titlepage.png)
-    }
 @media only screen and (max-width: 767px) {
     .Main {
         margin-top: 80px;
