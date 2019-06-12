@@ -5,7 +5,23 @@ import welcome from '../img/mapp/2-welcome.png';
 import overview from '../img/mapp/13-overview.png';
 import bryton from '../img/mapp/3-bryton.png';
 import melinda from '../img/mapp/4-melinda.png';
+import competitors from '../img/mapp/5-competitors.png';
+import wireframe from '../img/mapp/6-wireframe.png';
+import welcomeScreen from '../img/mapp/7-welcome-screen.png';
+import dailyRoute from '../img/mapp/8-daily-route.png';
+import location from '../img/mapp/9-location.png';
+import statistics from '../img/mapp/10-statistics.png';
+import forYou from '../img/mapp/11-for-you.png';
+import hotspots from '../img/mapp/12-hotspots.png';
+
 import mappIcon from '../img/mapp/icon-1-mapp.png';
+import welcomeIcon from '../img/mapp/icon-2-welcome.png';
+import personasIcon from '../img/mapp/icon-3-personas.png';
+import compIcon from '../img/mapp/icon-4-competitors.png';
+import wireframeIcon from '../img/mapp/icon-5-wireframe.png';
+import screensIcon from '../img/mapp/icon-6-screens.png';
+import finalIcon from '../img/mapp/icon-7-final.png';
+import productIcon from '../img/mapp/icon-8-product.png';
 
 class Mapp extends PureComponent {
   render() {
@@ -49,7 +65,9 @@ class Mapp extends PureComponent {
           </div>
 
           <div className="section">
+            <img src={welcomeIcon} className="icon" alt="welcome"/>
             <h2 className="heading">Concept</h2>
+
             <p>
               My approach to this question is to design an app that tracks where users go 
               throughout the day, creating a geographical diary that requires no input from the user. 
@@ -68,6 +86,8 @@ class Mapp extends PureComponent {
           </div>
 
           <div className="section">
+            <img src={productIcon} className="icon" alt="product"/>
+
             <h2 className="heading">Product Strategy</h2>
             <p>
               From a business standpoint, I think of UX design as a way to problem solve. My role as a designer is to 
@@ -147,6 +167,8 @@ class Mapp extends PureComponent {
           </div> 
 
           <div className="section">
+            <img src={personasIcon} className="icon" alt="personas"/>
+
             <h2 className="heading">User Personas</h2>
             <p>
               The surveys also provided me with information to form two user personas that would help me achieve these goals.
@@ -190,6 +212,8 @@ class Mapp extends PureComponent {
           </div>
         
           <div className="section">
+             <img src={compIcon} className="icon" alt="competitors"/>
+
             <h2 className="heading">Competitive Analysis</h2>
             <p>Usually, I check out competitors after I have worked on the core features so that I'm not prematurely influenced by 
               existing designs. This time, I could not find any apps that were terribly similar to what I was trying to create - some 
@@ -197,15 +221,18 @@ class Mapp extends PureComponent {
               location. This was both helpful and unhelpful, as I could easily make MAPP different from existing apps but I was 
               limited in where I could draw inspiration from. </p>
             {/* big competitor pdf */}
+            <img src={competitors} className="image" alt="competitors" />
             
           </div>
 
-          <div className="section">
+          <div className="section">            
+            <img src={wireframeIcon} className="icon" alt="wireframes"/>
             <h2 className="heading">Wireframes</h2>
             <p>
             After the research process, I sketched out low fidelity wireframes and mapped out user and task flows. 
             </p>
 {/* wireframe pdf */}
+            <img src={wireframe} className="wireframes" alt="wireframe" />
             <p>After making the wireframes, I wanted to refine the layout and flow of my design so I sought 
               feedback from 5 of my users. From the feedback I received, I simplified my ideas and decided to incorporate 
               a note-taking function on each saved location in addition to displaying photos taken during that time. 
@@ -217,9 +244,13 @@ class Mapp extends PureComponent {
               the real-world ratings for businesses.</p>
           </div>
 
-          <div className="section">
+          <div className="screens">
+             <img src={screensIcon} className="icon" alt="screens"/>
+
             <h2 className="heading">Welcome Screens</h2>
             {/* welcome pdf */}
+            <img src={welcomeScreen} className="image" alt="welcome" />
+
             <p>
               Upon starting the app, the user is greeted with a Sign In page with options to create an account or sign in via 
               Google or Facebook accounts. The next page gives a brief overview of the app’s features so a new user is familiarized 
@@ -230,6 +261,8 @@ class Mapp extends PureComponent {
           <div className="section">
             <h2 className="heading">Daily Route Screens</h2>
             {/* daily route pdf */}
+            <img src={dailyRoute} className="image" alt="dailyroute" />
+
             <p>
               This is the crown jewel feature of MAPP: the user’s Daily Route is laid out on a map so that they can visualize 
               everywhere they’ve been that day. I used a two-card layout: the top green one to swipe between dates, and the bottom 
@@ -247,9 +280,11 @@ class Mapp extends PureComponent {
           <div className="section">
             <h2 className="heading">Location Card</h2>
             {/* location pdf */}
+            <img src={location} className="image" alt="location" />
+
             <p>
               I wanted the Location Card to have a distinctly different look than the others, since it was intended to be a exitable 
-              pop-up view (in which you can swipe between cards to view the previous or next location).Here was where I chose to
+              pop-up view (in which you can swipe between cards to view the previous or next location). Here was where I chose to
               present the details specific to the location: address, time of arrival and departure, and the people that were present 
               (if that person was using the app and at the particular location at the same time, the app would show them together). 
               <br/> <br/>
@@ -263,6 +298,8 @@ class Mapp extends PureComponent {
           <div className="section">
             <h2 className="heading">Statistics Screens</h2>
             {/* statistics pdf */}
+            <img src={statistics} className="image" alt="statistics" />
+
             <p>
               This was another screen where a large amount of information had to be shown. I didn’t want to crowd the screen, so I 
               opted for a swipable display (like a rotating carousel) allowing the user to view either a circle graph breakdown of 
@@ -279,20 +316,45 @@ class Mapp extends PureComponent {
           <div className="section">
             <h2 className="heading">Suggestions and Rating Screens</h2>
             {/* for you pdf */}
+            <img src={forYou} className="image" alt="foryou" />
+
             <p>
-              words words words
+              I wanted the users of MAPP to be inspired to visit new places while recording their old ones, and this page gives them 
+              suggestions in different categories (places to eat, study, or visit). This aligned with MAPP’s goal of helping people 
+              discover new experiences and value the places that they choose to visit. 
+              <br/> <br/>
+              For the visual layout, I tried to make 
+              experiences immediately tangible and alluring, so I opted for a card layout with a photo of the activity foremost. 
+              In order for the user to decide if it was worth embarking on, I also included a map so they could see where the 
+              location was, in addition to a short description and rating for more information. People are always more likely to 
+              trust a source if friends they know can vouch for it, so the number of friends who have previously been to the 
+              location is displayed. Finally, for someone like Melinda who wants to be able to save the locations she’d like to 
+              visit, I added an option to bookmark individual places on this screen. 
+              <br/> <br/>
+              In order for the app to ensure that the 
+              recommendations it gives are helpful and well-received, I implemented a way to obtain feedback from the user by 
+              having them rate their experiences after visiting the suggested locations. This would not be a rating on the business 
+              itself, however, and to emphasize the rating as a personal one I chose to use 3 emojis instead of stars or numbers 
+              (also to keep it simple). If the user wanted to rate the business itself, I made a link to Yelp easily accessible. 
             </p>
           </div>
 
           <div className="section">
             <h2 className="heading">Hotspot Screen</h2>
+            <img src={hotspots} className="image" alt="hotspots" />
+
             {/* hotspot pdf */}
             <p>
-              words words words words
+            The hotspot screen is how I imagined a person like Bryton would see where his friends liked to go and then be able to 
+            ask them how the place was or visit it himself.  Popular places are denoted by a coloured circle on the map, and 
+            tapping on any one of their names would bring you to a Location Card with more details. The user can see both the 
+            places they go to the most - their personal hotspots - or the places most popular with others (friends’ hotspots).
             </p>
           </div>
 
           <div className="section">
+            <img src={finalIcon} className="icon" alt="final"/>
+
             <h2 className="heading">Final Thoughts</h2>
             <p>
             I’ve had the idea for this app for years now, and it felt great to narrow my vision into a tangible design. My biggest challenge 
@@ -320,7 +382,7 @@ class Mapp extends PureComponent {
             </p>
 
             {/* mapp icon*/}
-
+            <img src={mappIcon} className="icon" alt="mapp"/>
             <p>Thanks for reading my case study!
               <br/> <br/>
               Carrie Rong 2019

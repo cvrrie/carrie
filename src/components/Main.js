@@ -44,14 +44,16 @@ class Main extends PureComponent {
                   I'm currently a student at McGill University studying Physiology. I'm also interested in UX/UI design and love finding simple, powerful, and smart solutions to complex challenges. 
                 </div>
                 <a href="mailto:carrierong37@gmail.com" className="underlined-button">Drop me a hi!</a>
-                <div className="words2"> hi.</div>
+                
             </div>
             <img src={carrie} className="portrait" alt="carrie" />
           </div>
           <div className="projects">
             <h2 className="heading" ref={this.projectsRef}>PROJECTS</h2>
+            <div className="parallax"></div>
             <div className="projectCard">
-              <Link to="/mapp">MAPP</Link>
+              
+              <Link to="/mapp" className="project">MAPP</Link>
             </div>
           </div>
         </div>

@@ -3,6 +3,7 @@
 .Main {
     margin-top: 125px;
     text-align: left;
+    margin-bottom: 125px;
 
     .intro {
         display: flex;
@@ -76,6 +77,7 @@
 
     .projects {
         margin-top: 200px;
+        margin-bottom: 125px;
     }
 
     .heading {
@@ -86,10 +88,41 @@
 
     .projectCard {
         margin: 40px 0;
-        margin-bottom: 600px;
+        margin-bottom: 40px;
     }
 }
 
+    .projectCard {
+        //max-width: 100%;
+        width: 0px;
+        height: 300px;
+        border-radius: 30px;
+        //box-shadow: 5px 10px 40px 0 rgba(148,148,148,0.2);
+        margin-bottom: 15px;
+       background: #eaeaea;
+        color: $mappColor;
+    }
+
+    .projectCard:hover {
+        filter: brightness(95%);
+        
+    }
+
+    .project {
+        background-color: #fefefe;
+        color: black;
+        padding: 200px 470px;
+        margin: 20px 0 40px 0;
+        margin-bottom: 30px;
+        display: inline-block;
+        text-align: left;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+
+    .parallax {
+        background-image: url(../img/mapp/titlepage.png)
+    }
 @media only screen and (max-width: 767px) {
     .Main {
         margin-top: 80px;
