@@ -1,6 +1,6 @@
 $mappColor: #43C6AC;
 $gray: #707070;
-$yellow: #FCD962;
+$yellow: #f9ca24;
 $black: #1e272e;
 $white: #ffffff;
 
@@ -54,4 +54,10 @@ $white: #ffffff;
     letter-spacing: 2px;
     font-size: 28px;
     margin-top: 80px;
+}
+
+@mixin text {
+    font-size: 14px;
+    text-align: left;
+    font-family: "Karla";
 }

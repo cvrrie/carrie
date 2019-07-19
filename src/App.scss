@@ -1,11 +1,12 @@
 @import "./variables.scss";
 
 .App {
+  position: absolute;
   height: 100%;
   width: 100%;
   text-align: center;
   padding: 20px 10%;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: auto;
   animation: fade-in 1.0s;
 }
@@ -20,4 +21,12 @@
   text-decoration: none;
   color: $yellow;
   margin-right: 10px;
+}
+
+.menu {
+  display: none;
+
+  @media only screen and (max-width: 720px) {
+    display: block;
+  }
 }

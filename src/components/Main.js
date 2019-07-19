@@ -50,17 +50,18 @@ class Main extends PureComponent {
           </div>
           <div className="projects">
             <h2 className="heading" ref={this.projectsRef}>PROJECTS</h2>
-            <div className="projectCard">
-              <div className="cardLeft">
-                <div className="title">MAPP</div>
-                <div className="words">A location based daily tracker app design.</div>
-                <Link to="/mapp" className="underlined-button">See UX case study &rarr;</Link>
+            <Link to="/mapp" className="nolink">
+              <div className="projectCard">
+                <div className="cardLeft">
+                  <div className="title">MAPP</div>
+                  <div className="words">A location based daily tracker app design.</div>
+                  <Link to="/mapp" className="underlined-button">See UX case study &rarr;</Link>
+                </div>
+                <div className="cardRight">
+                  <img className="mappImage" src={mappProjectBox} alt="mapp project image"/>
+                </div>
               </div>
-              <div className="cardRight">
-                <img className="projectImage" src={mappProjectBox} alt="mapp project image"/>
-              </div>
-              
-            </div>
+            </Link>
           </div>
         </div>
       </>

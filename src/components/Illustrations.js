@@ -19,37 +19,38 @@ class Illustrations extends PureComponent {
       <div className="Illustrations">
         <h1 className="title">Illustrations</h1>
     
-        <img src={birdy} className="image" alt="birdy" />
+        <img src={birdy} className="image" alt="birdy" title="Each stroke on this adorable fluff was a pain to draw" />
         <br/>
         
         {/*<img src={banana} className="image" alt="banana" />*/}
         <p></p>
 
-        <img src={worm} className="image" alt="worm" />
+        <img src={worm} className="image" alt="worm" title="I initially wanted to create an entire mock Facebook sticker set 
+        with this worm. But if you really think about it, there are only so many emotions you can convey with a worm. Might revisit later." />
         <p></p>
        
-        <img src={sunny} className="image spin" alt="sunny" />
+        <img src={sunny} className="image spin" alt="sunny" title="this sun is actually rotating" />
         <p></p>  
         
-        <img src={planet} className="image" alt="planet" />
+        <img src={planet} className="image" alt="planet" title="my favourite blending is Colour Dodge with that planet in the right corner" />
         <p></p>
        
-        <img src={teddy_sailing} className="image" alt="teddy_sailing" />
+        <img src={teddy_sailing} className="image" alt="teddy_sailing" title="a lonely but optimistic teddy bear sails on turbulent waters" />
         <p></p>
         
-        <img src={fire} className="image" alt="fire" />
+        <img src={fire} className="image" alt="fire" title="gradients are fun" />
         <p></p>
         
-        <img src={dragonfruit} className="image" alt="dragonfruit" />
+        <img src={dragonfruit} className="image" alt="dragonfruit" title="the quirkiest of fruits" />
         <p>.</p>
         
-        <img src={house} className="image" alt="house" />
+        <img src={house} className="image" alt="house" title="I wanted to get in on the isometric design trend" />
         <p> </p>
        
-        <img src={bike} className="image" alt="bike" />
+        <img src={bike} className="image" alt="bike" title="drawing with Procreate" />
         <p></p>
        
-        <img src={ocean} className="image" alt="ocean" />
+        <img src={ocean} className="image" alt="ocean" title="I have a preoccupation with birds." />
         <p></p>
       </div>
     );

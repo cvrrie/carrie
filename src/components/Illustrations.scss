@@ -1,18 +1,18 @@
 @import "../variables.scss";
 
 .Illustrations {
-  margin-top: 125px;
+  margin-top: 25px;
   animation:  fade-in 1.0s;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   width: 400px;
   max-width: 100%;
   text-align: center; 
   font-size: 13px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 130px;
 
   .image {
-    margin: 50px auto;
+    margin: 60px auto;
     animation:  fade-in 1.0s;
     width: 400px;
     max-width: calc(100%-20px);

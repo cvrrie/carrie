@@ -1,12 +1,13 @@
 import React, { PureComponent } from 'react';
-import { BrowserRouter as Router, Route, Switch, withRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, withRouter, NavLink } from "react-router-dom";
+import { slide as Menu } from 'react-burger-menu';
 
 import Navbar from './components/Navbar';
 
 import Illustrations from './components/Illustrations';
 import Mapp from './components/Mapp';
 import Main from './components/Main';
-import Photos from './components/Photos';
+import About from './components/About';
 import './App.scss';
 
 class ScrollToTop extends PureComponent {
@@ -51,7 +52,7 @@ class App extends PureComponent {
               <Route exact path="/" render={() => <Main scroll={this.state.scroll} unsetScroll={this.unsetScroll} />} />
               <Route path="/illustrations" component={Illustrations} />
               <Route path="/mapp" component={Mapp} />
-              <Route exact path="/photos" component={Photos} />
+              <Route exact path="/about" component={About} />
             </Switch>
             <div className="credits">
               <a href="https://github.com/cvrrie" className="creditLink">Designed and coded with love</a>

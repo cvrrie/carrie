@@ -11,18 +11,34 @@
   
   .logo:hover {
     filter: brightness(95%);
+    
   }
   
   .navlinks {
     position: absolute;
     top: 30px;
     right: 45px;
+
+    @media only screen and (max-width: 720px) {
+      display: none;
+    }
+  }
+
+  .menu {
+    display: none;
+    z-index: 100;
+
+
+    @media only screen and (max-width: 720px) {
+      display: block;
+    }
   }
   
   .navlink {
     cursor: pointer;
     font-size: 11.5px;
     margin-left: 40px;
+    margin-right: 20px;
     text-decoration: none;
     color: $black;
     font-family: 'Karla';
