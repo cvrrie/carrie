@@ -18,7 +18,7 @@ class Illustrations extends PureComponent {
        // eslint-disable-next-line
       <div className="Illustrations">
         <h1 className="title">Illustrations</h1>
-    
+        <p>Try hovering</p>
         <img src={birdy} className="image" alt="birdy" title="Each stroke on this adorable fluff was a pain to draw" />
         <br/>
         

@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 import './Main.scss';
 import carrie from '../img/carrie.svg';
-import mappProjectBox from '../img/mapp/mapp-project-box.png';
+import mappProjectBox from '../img/mapp/Websitepreview.png';
+import sensors from '../img/sensors.png';
 
 class Main extends PureComponent {
   constructor(props) {
@@ -49,13 +50,27 @@ class Main extends PureComponent {
             <img src={carrie} className="portrait" alt="carrie" />
           </div>
           <div className="projects">
-            <h2 className="heading" ref={this.projectsRef}>PROJECTS</h2>
+            <div className="scrollanchor" ref={this.projectsRef} />
+            <h2 className="heading">WORK</h2>
+            <Link to="/" className="nolink">
+              <div className="projectCard">
+                <div className="cardLeft">
+                  <div className="title">Voyage Labs</div>
+                  <div className="words">Designing Canadian law enforcement's roadside drug sensors.</div>
+                  <span className="underlined-button">Case study coming soon!</span>
+                </div>
+                <div className="cardRight">
+                  <img className="sensorImage" src={sensors} alt="sensor image"/>
+                </div>
+              </div>
+            </Link>
+
             <Link to="/mapp" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
                   <div className="title">MAPP</div>
                   <div className="words">A location based daily tracker app design.</div>
-                  <Link to="/mapp" className="underlined-button">See UX case study &rarr;</Link>
+                  <span className="underlined-button">See UX case study &rarr;</span>
                 </div>
                 <div className="cardRight">
                   <img className="mappImage" src={mappProjectBox} alt="mapp project image"/>

@@ -89,11 +89,18 @@
     .projects {
         margin-top: 0px;
         margin-bottom: 200px;
+        position: relative;
+    }
+
+    .scrollanchor {
+        position: absolute;
+        top: -80px;
     }
 
     .heading {
        @include title;
        color: $yellow;
+       text-align: center;
     }
 
     .projectCard:hover {
@@ -105,8 +112,8 @@
     }
 
     .projectCard {
-        margin: 70px 0 90px 0;
-        padding: 0px 100px 0 50px;
+        margin: 50px 0 50px 0;
+        padding: 0px 50px 0 50px;
         display: flex;
         height: 250px;
 
@@ -117,7 +124,7 @@
         .title {
             font-weight: 600;
             font-size: 22px;
-            letter-spacing: 2px;
+            letter-spacing: 1.2px;
         }
 
         .text {
@@ -138,28 +145,21 @@
         }
 
         .cardRight {
-            max-width: 175px;
             margin-left: 20px;
-            margin-top: 15px;
-            margin-right: 50px;
+            margin-right: 0px;
+            padding: 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            max-width: 50%;
 
             img {
-                width: 100%;
                 height: auto;
+                width: auto;
+                max-height: 100%;
+                margin: auto;
+                margin-right: 0;
             }    
-        }
-
-        .mappImage {
-            margin-bottom: 0;
-            height: 100%;
-            width: auto;
-            bottom: 0;
-
-            @media only screen and (max-width: 550px) {
-                height: 150px;
-                max-height: 200px;
-                max-width: 150px;
-            }
         }
 
         @media only screen and (max-width: 900px) {
@@ -170,8 +170,13 @@
             padding-right: 20px;
 
             .cardRight {
-                max-width: 200px;
                 margin-right: 20px;
+            }
+
+            img {
+                max-width: 200px;
+                height: auto;
+                max-height: 100%;
             }
         }
 
@@ -179,6 +184,12 @@
             display: block;
             padding: 40px 20px 0 20px;
             height: 100%;
+
+            img {
+                max-width: 100%;
+                height: auto;
+                margin-bottom: 30px !important;
+            }
 
             .cardRight {
                 text-align: center;

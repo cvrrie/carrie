@@ -55,7 +55,7 @@ class App extends PureComponent {
               <Route exact path="/about" component={About} />
             </Switch>
             <div className="credits">
-              <a href="https://github.com/cvrrie" className="creditLink">Designed and coded with love</a>
+              <a href="https://github.com/cvrrie" className="creditLink">Designed and developed with love</a>
               © Carrie Rong 2019
             </div>
           </div>
