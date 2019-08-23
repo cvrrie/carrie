@@ -215,11 +215,13 @@ class Mapp extends PureComponent {
              <img src={compIcon} className="icon" alt="competitors"/>
 
             <h2 className="heading">Competitive Analysis</h2>
-            <p>Usually, I check out competitors after I have worked on the core features so that I'm not prematurely influenced by 
-              existing designs. This time, I could not find any apps that were terribly similar to what I was trying to create - some 
+            <p>I check out competitors after I have worked on the core features so that I'm not prematurely influenced by 
+              existing designs. I could not find any apps that were terribly similar to what I was trying to create - some 
               used location tracking for safety purposes and others created a ‘pie chart’ view of the user’s day without marking the 
               location. This was both helpful and unhelpful, as I could easily make MAPP different from existing apps but I was 
-              limited in where I could draw inspiration from. </p>
+              limited in where I could draw inspiration from.
+              <br/><br/>
+              <b>Note:</b> I did discover Google Timeline a few weeks after I worked on this project - so if I were to redo this project,  </p>
             {/* big competitor pdf */}
             <img src={competitors} className="image" alt="competitors" />
             

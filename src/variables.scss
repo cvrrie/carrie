@@ -1,7 +1,8 @@
 $mappColor: #43C6AC;
+$darkgray: #4b4b4b;
 $gray: #707070;
 $yellow: #FFC90C;
-$black: #1e272e;
+$black: #2c2e30;
 $white: #ffffff;
 
 @mixin subtitle {
@@ -18,8 +19,8 @@ $white: #ffffff;
     font-size: 14px;
     text-align: left;
     font-weight: 600;
-    color: $gray;
-    border-left: 4px solid $gray;
+    color: $black;
+    border-left: 4px solid $black;
     padding-left: 20px;
 }
 
@@ -37,15 +38,16 @@ $white: #ffffff;
 @mixin number {
     text-align: center;
     display: inline-block;
-    padding: 3px 10px;
-    border-radius: 10px;
+    padding: 0px;
+    border-radius: 8px;
     background: $mappColor;
     color: $white;
     font-weight: 600;
     margin: 0 12px auto 30px;
     font-style: normal;
-    min-width: 7px;
-    max-height: 20px;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
 }
 
 

@@ -55,8 +55,8 @@ class Main extends PureComponent {
             <Link to="/" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
-                  <div className="title">Voyage Labs</div>
-                  <div className="words">Designing Canadian law enforcement's roadside drug sensors.</div>
+                  <div className="title">DrugSensor</div>
+                  <div className="words">Crafting the first iterations of screen interfaces for a roadside THC sensor used by Canadian law enforcement</div>
                   <span className="underlined-button">Case study coming soon!</span>
                 </div>
                 <div className="cardRight">
@@ -68,7 +68,7 @@ class Main extends PureComponent {
             <Link to="/mapp" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
-                  <div className="title">MAPP</div>
+                  <div className="title">Enriching people's daily experiences through visual location tracking</div>
                   <div className="words">A location based daily tracker app design.</div>
                   <span className="underlined-button">See UX case study &rarr;</span>
                 </div>
