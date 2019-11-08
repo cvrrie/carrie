@@ -16,9 +16,12 @@ class Drugsensor extends PureComponent {
         </div>
 
         <div className="sensorimg">
-            <img src={sensor1} className="sensor1" alt="Sensor layer 1" />
-            <img src={sensor2} className="sensor2" alt="Sensor layer 2" />
-            <img src={sensor3} className="sensor3" alt="Sensor layer 3" />
+            <img src={sensor1} className="sensor1" alt="Sensor layer 1" title="This is my illustration of the sensor technology that Voyage Labs was working on. 
+            The top layer is the physical exterior, the middle layer is the internal circuitry, and the bottom layer represents the neural networks involved in the sensor."/>
+            <img src={sensor2} className="sensor2" alt="Sensor layer 2" title="This is my illustration of the sensor technology that Voyage Labs was working on. 
+            The top layer is the physical exterior, the middle layer is the internal circuitry, and the bottom layer represents the neural networks involved in the sensor."/>
+            <img src={sensor3} className="sensor3" alt="Sensor layer 3" title="This is my illustration of the sensor technology that Voyage Labs was working on. 
+            The top layer is the physical exterior, the middle layer is the internal circuitry, and the bottom layer represents the neural networks involved in the sensor."/>
         </div>
 
         <div className="right">
@@ -51,12 +54,18 @@ class Drugsensor extends PureComponent {
         <div className="category">Context Gathering</div>
         <div className="bodytext">
         To fully understand the product and its constraints, I started by speaking to the project manager and nano-engineers. 
-        The team had previously conducted interviews with our primary users, police officers, and I reviewed the notes that the team 
+        The team had previously conducted interviews with our <b>primary users</b>, police officers, and I reviewed the notes that the team 
         had acquired during these interviews. In addition, I researched current roadside alcohol and drug testing protocols.
-
-    
         </div>
        
+        <br/><br/>
+
+        <div className="category">Project Constraints</div>
+        <div className="bodytext">
+        The sensor device had to satisfy several constraints. First, it needed to adapt to <b>Canada’s extreme weather conditions</b> (if you know, you know), and support the police’s needs in all environments. The design also needed to be usable with both <b>touch screens</b> and <b>button-based interfaces</b>. Since police encounters can be high-stress situations, I also wanted to focus on minimizing the cognitive load required to operate the device by creating clean, minimalistic user interfaces.  
+
+
+        </div>
       </div>
 
 
