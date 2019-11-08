@@ -77,7 +77,7 @@ class Drugsensor extends PureComponent {
           Compiling the information from <b>user interviews</b> and <b>background research</b> guided my creation of a task flow, which went through several iterative cycles following feedback related to things like financial constraints and feature requirements. I explored the entire timeline of a police confrontation with a driver from before they left their station to after using the sensor, and generated a <b>journey map</b> that would be referenced in my mockups.
           <br/><br/><br/>
 
-          <img src={userflow}/>
+          <img src={userflow} class="drugimgs"/>
           <p className="imgcaption">Complete task flow for drug testing procedure using DrugSensor</p>
           
         </div>
@@ -96,7 +96,7 @@ class Drugsensor extends PureComponent {
             Some example screens. Here, I added details like “time remaining” and error messages as well as a police sign-in, and considered how the flows would change for each option selected. 
             <br/><br/>
 
-            <img src={iteration1}/>
+            <img src={iteration1} class="drugimgs"/>
 
           </div>
         </div>
@@ -109,9 +109,30 @@ class Drugsensor extends PureComponent {
             For this iteration, I was mainly considering how the settings flow would be accessed from the main operation of the device. I didn’t want focus to be redirected and lost when the user changed settings, so I opted for a card 1/4 the size of the screen. It turned out that this layout wasn’t optimal for non-touch screens, however, so it was back to the drawing board for iteration #5.
             <br/><br/>
 
-            <img src={iteration2}/>
+            <img src={iteration2} class="drugimgs"/>
 
           </div>
+        </div>
+        <br/><br/><br/>
+
+        <div className="categorytitle">Solution</div><br/>
+        <div className="bodytext">
+          To break down the broad directions that this product could head, I took the time to distill down the main functionalities of the device: 
+          <br/>
+          → a <b>calibration process</b>, to ensure sensor accuracy; <br/>
+          → a <b>standby mode</b>, for energy efficiency; and <br/>
+          → actual <b>drug testing</b>. <br/>
+          Below are some of the more important points of my thought process.
+
+
+
+          <br/><br/><br/>
+          Compiling the information from <b>user interviews</b> and <b>background research</b> guided my creation of a task flow, which went through several iterative cycles following feedback related to things like financial constraints and feature requirements. I explored the entire timeline of a police confrontation with a driver from before they left their station to after using the sensor, and generated a <b>journey map</b> that would be referenced in my mockups.
+          <br/><br/><br/>
+
+          <img src={userflow} class="drugimgs"/>
+          <p className="imgcaption">Complete task flow for drug testing procedure using DrugSensor</p>
+          
         </div>
       </div>
 
