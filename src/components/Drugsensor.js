@@ -7,6 +7,13 @@ import sensor3 from '../img/sensors/sensor3.png';
 import userflow from '../img/drugsensor/userflow.png';
 import iteration1 from '../img/drugsensor/iteration1.png';
 import iteration2 from '../img/drugsensor/iteration2.png';
+import homescreen from '../img/drugsensor/HomeScreen.png';
+import standby from '../img/drugsensor/Standby.png';
+import hardbuttons from '../img/drugsensor/hardbuttons.png';
+import starttest from '../img/drugsensor/starttest.png';
+import settings from '../img/drugsensor/settings.png';
+
+
 
 class Drugsensor extends PureComponent {
   render() {
@@ -113,7 +120,8 @@ class Drugsensor extends PureComponent {
 
           </div>
         </div>
-        <br/><br/><br/>
+        <br/><br/><br/>            <br/><br/><br/>
+
 
         <div className="categorytitle">Solution</div><br/>
         <div className="bodytext">
@@ -121,19 +129,63 @@ class Drugsensor extends PureComponent {
           <br/>
           → a <b>calibration process</b>, to ensure sensor accuracy; <br/>
           → a <b>standby mode</b>, for energy efficiency; and <br/>
-          → actual <b>drug testing</b>. <br/>
-          Below are some of the more important points of my thought process.
-
-
-
-          <br/><br/><br/>
-          Compiling the information from <b>user interviews</b> and <b>background research</b> guided my creation of a task flow, which went through several iterative cycles following feedback related to things like financial constraints and feature requirements. I explored the entire timeline of a police confrontation with a driver from before they left their station to after using the sensor, and generated a <b>journey map</b> that would be referenced in my mockups.
-          <br/><br/><br/>
-
-          <img src={userflow} class="drugimgs"/>
-          <p className="imgcaption">Complete task flow for drug testing procedure using DrugSensor</p>
-          
+          → actual <b>drug testing</b>. <br/><br/>
+          Below are some of the screens, accompanied by some points of my thought process.
         </div>
+
+        <br/><br/><br/><br/>
+
+        <div className="categoryscreen">Home and Standby Screens</div><br/>
+
+        <div className="twocolumn">
+          <div className="left1">
+            <img src={homescreen} class="drugimgs"/>
+          </div>
+          <div className="right1 bodytext">
+            After boot-up, the user would be prompted to calibrate the sensor system immediately (for optimal accuracy of the sensor), or return to the <b>home page</b> to choose another option.
+          </div>
+        </div>
+        
+        <div className="twocolumn">
+          <div className="left2 bodytext">
+            This is the system’s <b>energy-saving mode</b> for when police are not actively engaging with drivers. When ready, the Start Test CTA takes the user directly to testing; otherwise, pressing anywhere else leads to the <b>home page</b>.            
+          </div>
+          <div className="right2">
+            <img src={standby} class="drugimgs"/>
+          </div>
+        </div>
+        <br/><br/><br/><br/>
+
+        <div className="greybg">
+          <div className="categoryscreen">Button-Based Interfaces</div>
+          <br/><br/><br/>
+          <img src={hardbuttons} class="drugimgs"/>
+          <p className="imgcaption">Screen with 4 hard buttons on each side</p>
+          <br/><br/>
+          <div className="bodytext">
+            A main requirement of our interface was configuring functionality for both <b>touch screens</b> and <b>non-touch screens with hard buttons</b>. This was for cases in which the hardware could not support touch, or the police officer was wearing gloves in cold weather. My final solution operated seamlessly for both touch and non-touch, ensuring that every pressable option and CTA was <b>associated with one of the 8 hard buttons</b>. 
+            <br/><br/><br/>
+            In situations where the screen displayed additional information such as the help screen, I opted for a <b>modal layout</b> aligned to the right side of the screen so that the user recognized the right-side buttons were for navigation. If the “Help” button was pressed by mistake, the cancel button would appear in the same location.
+          </div>
+        </div>
+
+        <br/><br/><br/><br/><br/><br/>
+
+
+        <div className="categoryscreen">Drug Test Screens</div><br/>            
+        <br/><br/>
+
+        <div className="bodytext"> 
+          <img src={starttest} class="drugimgs"/>
+          <br/><br/><br/>
+
+          Process for testing a driver’s saliva for THC levels. On the first screen are <b>specifications</b> requested by the project lead (estimated time required, time of last test, etc). The second screen, a progress screen, serves several purposes: <b>a visual indication of how long the test takes</b>, as well as instructions on operating the device properly. <b>Results of the completed test</b> are displayed next, along with jurisdiction-specific drug threshold laws for reference. Other CTAs allow printing or viewing of test details.
+            <br/><br/>
+
+
+          </div>
+
+         
       </div>
 
 
