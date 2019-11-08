@@ -386,10 +386,11 @@ class Mapp extends PureComponent {
 
             {/* mapp icon*/}
             <img src={mappIcon} className="icon" alt="mapp"/>
-            <p>Thanks for reading my case study!
-              <br/> <br/>
-              Carrie Rong 2019
-            </p>
+            
+
+          </div>
+          <div className="fullwidth">
+            <a className="underlined-button" href="/drugsensor">→ Next case study</a>
           </div>
         </div>
       </div>

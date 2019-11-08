@@ -184,6 +184,10 @@
   background-color: #fcfcfc;
   padding: 35px 45px;
 }
+.indigobg {
+  background-color: #F3F0FB;
+  padding: 35px 45px;
+}
 
 .categoryscreen {
   @include uppergraytext;
@@ -227,6 +231,39 @@
   }
 }
 
+
+.underlined-button {
+  color: $black;
+  text-decoration: none;
+  font-family: 'Karla';
+  font-size: 13px;
+  font-weight: 600;
+  transition: 0.3s filter;
+  position: relative;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.underlined-button:hover {
+  filter: brightness(105%);
+  cursor: pointer;
+}
+
+.underlined-button:hover::after {
+  width: 100%;
+}
+
+.underlined-button:after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  left: 0;
+  bottom: -7px;
+  background: $yellow;
+  width: 15px;
+  border-radius: 10%;
+  transition: 0.3s width;
+}
 
 
 

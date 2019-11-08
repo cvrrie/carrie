@@ -52,6 +52,7 @@
 
     .underlined-button:hover {
         filter: brightness(105%);
+        cursor: pointer;
     }
 
     .underlined-button:hover::after {

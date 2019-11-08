@@ -93,7 +93,8 @@ class Drugsensor extends PureComponent {
         <div className="category">Wireframes</div>
         <div className="bodytext">
           I started with <b>low-fi wireframes</b> of the minimal skeleton of the user flow, then built on these through five more iterations in a time span of three weeks, each time refining a specific step of the sensor process and taking edge cases into mind. I studied aspects from devices with touch screen interfaces, including ticket machines and <b>human-machine interfaces</b> for industrial systems.
- 
+          <br/>
+          Here are some of the iterations I went through:
         </div>
         <br/><br/><br/>
 
@@ -169,7 +170,7 @@ class Drugsensor extends PureComponent {
           </div>
         </div>
 
-        <br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/>
 
 
         <div className="categoryscreen">Drug Test Screens</div><br/>            
@@ -178,14 +179,37 @@ class Drugsensor extends PureComponent {
         <div className="bodytext"> 
           <img src={starttest} class="drugimgs"/>
           <br/><br/><br/>
-
           Process for testing a driver’s saliva for THC levels. On the first screen are <b>specifications</b> requested by the project lead (estimated time required, time of last test, etc). The second screen, a progress screen, serves several purposes: <b>a visual indication of how long the test takes</b>, as well as instructions on operating the device properly. <b>Results of the completed test</b> are displayed next, along with jurisdiction-specific drug threshold laws for reference. Other CTAs allow printing or viewing of test details.
+          <br/><br/><br/><br/><br/>
+
+        </div>
+
+        <div className="indigobg">
+          <div className="categoryscreen">Settings Screens</div><br/>            
+          <br/>
+
+          <div className="bodytext"> 
+            <img src={settings} class="drugimgs"/>
+            <p className="imgcaption">Layout of options on the settings screens</p>
             <br/><br/>
-
-
+            Given the context of the user, where officers would be talking while trying to use the device under bright sun glares or freezing rain, I tried to <b>slim down cognitive load wherever possible</b>. I made use of both colour and iconography, paying attention to the possibility of <b>low visibility and accessibility needs</b>, to make information simple and quickly recognizable. On settings screens, the most used options are displayed first, some with simple toggle options for fast access. 
           </div>
+        </div>
+        <br/><br/><br/><br/><br/>
 
-         
+        <div className="categorytitle">Looking Back</div><br/>
+        <div className="bodytext">
+          This was the first client project that I had complete ownership over, and I <b>started from scratch</b> with absolutely no specifications - not even the screen size! Before presenting any design work to my project manager or  stakeholders, I had to make sure that <b>I had a solid argument for every single design decision I made</b>, and could communicate it effectively. I soon learned that if I couldn’t back myself up, it would be scrutinized by others and I’d be forced to change it against my judgement. 
+          <br/><br/>
+          Designing without first-hand input directly from our users required me to <b>make a lot of assumptions</b>. For example, I wasn’t sure if they’d watch the device as it analyzed a saliva sample, and thus had to guess on the correct amount of detail to display on the progress screens. If I could keep working on the project, I would insist on thorough <b>user testing and acquiring more concrete feedback from police officers</b> before proceeding any further.  As well, I would’ve loved to collaborate with developers to learn  about making my designs more feasible and realistic as I was unfamiliar with that point of view, but unfortunately the project was in its early stages and no developers had yet been hired.
+          <br/><br/>
+          As the first product/design focused employee in the company, I had to work independently to <b>define my own workflow</b> and do a huge amount of self-learning. I learned that I don’t have to have all the answers at the start, but would learn during the process by <b>consciously challenging myself</b> in every task I was thrown into. Although I enjoyed the autonomy, I found myself craving other designers or even developers to bounce ideas off of, which is why I want to work in a setting where <b>design systems as well as mentorship</b> are established and valued for my next internship.
+
+        </div>
+        <br/><br/><br/><br/><br/>
+
+        <a className="underlined-button" href="/mapp">→ Previous case study</a>
+
       </div>
 
 
