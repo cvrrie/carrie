@@ -34,7 +34,7 @@ class Drugsensor extends PureComponent {
 
           <div className="category">Team</div>
           <div className="categorytext">
-            One product lead, two nanoengineers, one hardware manufacturer, one designer (myself)
+            One product manager, two nanoengineers, one hardware manufacturer, one designer (myself)
           </div>  
         </div>
         <br/><br/><br/>
