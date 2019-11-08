@@ -37,6 +37,7 @@
         left: 0;
         font-size: 14px;
         text-align: left;
+        @include text;
     }
 
     .underlined-button {

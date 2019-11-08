@@ -43,7 +43,10 @@ class Main extends PureComponent {
             <div className="left">
                 <h1 className="name">Hey, I'm Carrie!</h1>
                 <div className="words">
-                  I'm currently a student at McGill University studying Physiology. I'm also interested in UX/UI design and love finding simple, powerful, and smart solutions to complex challenges. 
+                  I'm currently a third-year student studying Physiology <br/>at McGill University in Montreal. I'm also interested in <br/>product design 
+                  and thinking about ways that design <br/>changes the lives of people both immediately around <br/>me and around the world. 
+                  <br/> <br/>
+                  At the moment, I'm finding my stride in front-end <br/>development, illustration, and leading Design Collective, <br/>McGill's first design community.
                 </div>
                 <a href="mailto:carrierong37@gmail.com" className="underlined-button">Drop me a hi!</a>
             </div>
