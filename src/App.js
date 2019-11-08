@@ -9,6 +9,7 @@ import Mapp from './components/Mapp';
 import Main from './components/Main';
 import About from './components/About';
 import './App.scss';
+import Drugsensor from './components/Drugsensor';
 
 class ScrollToTop extends PureComponent {
   componentDidUpdate(prevProps) {
@@ -53,6 +54,8 @@ class App extends PureComponent {
               <Route path="/illustrations" component={Illustrations} />
               <Route path="/mapp" component={Mapp} />
               <Route exact path="/about" component={About} />
+              <Route exact path="/drugsensor" component={Drugsensor} />
+
             </Switch>
             <div className="credits">
               <a href="https://github.com/cvrrie" className="creditLink">Designed and developed with love</a>

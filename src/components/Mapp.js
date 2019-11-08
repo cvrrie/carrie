@@ -148,7 +148,7 @@ class Mapp extends PureComponent {
             <div className="list">
               <div className="number">2</div>
               <div className="item">
-                Based on these surveys, <b>one on one interviews</b> to further understand 
+                <b>One on one interviews</b> to further understand 
                 the habits of users, specifically why they go where they go and the emotions behind wanting to track their days (curiosity, 
                 boredom, displeasure at not knowing how their day is spent)
               </div>
@@ -221,7 +221,8 @@ class Mapp extends PureComponent {
               location. This was both helpful and unhelpful, as I could easily make MAPP different from existing apps but I was 
               limited in where I could draw inspiration from.
               <br/><br/>
-              <b>Note:</b> I did discover Google Timeline a few weeks after I worked on this project - so if I were to redo this project,  </p>
+              <b>Note:</b> I did discover Google Timeline a few weeks after I worked on this project - so if I were to redo this, 
+              I would have explored their existing design and used it to improve my own app concept. </p>
             {/* big competitor pdf */}
             <img src={competitors} className="image" alt="competitors" />
             

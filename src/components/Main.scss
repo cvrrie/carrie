@@ -28,6 +28,7 @@
         font-weight: 900;
         margin-bottom: 0px;
         text-align: left;
+        letter-spacing: -0.4px;
     }
 
     .words {
@@ -76,7 +77,7 @@
 
     .portrait {
         width: 100%;
-        margin-left: 30px;
+        margin-left: 5m0px;
         width: 50%;
         animation: fade-in 1.0s;
         max-width: 350px;
@@ -142,16 +143,18 @@
         .cardLeft {
             margin: auto;
             margin-left: 20px;
+            width: 60%;
         }
 
         .cardRight {
-            margin-left: 20px;
+            margin-left: 0px;
             margin-right: 0px;
             padding: 20px 0;
             display: flex;
             flex-direction: column;
             align-content: center;
-            max-width: 50%;
+            max-width: 30%;
+            
 
             img {
                 height: auto;
@@ -165,11 +168,11 @@
         }
 
         @media only screen and (max-width: 900px) {
-            padding-right: 50px;
+            padding-right: 10px;
         }
 
         @media only screen and (max-width: 767px) {
-            padding-right: 20px;
+            padding-right: 5px;
 
             .cardRight {
                 margin-right: 20px;
@@ -184,7 +187,7 @@
 
         @media only screen and (max-width: 550px) {
             display: block;
-            padding: 40px 20px 0 20px;
+            padding: 25px 5px 0 5px;
             height: 100%;
 
             img {
@@ -199,12 +202,16 @@
             }
 
             .cardLeft {
-                margin: 0 30px;
+                margin: 0 10px 0 25px;
+                width: 80%;
             }
 
             .cardRight {
                 margin-top: 50px;
                 padding: 0;
+            }
+            .words {
+                width: 100%;
             }
         }
     }

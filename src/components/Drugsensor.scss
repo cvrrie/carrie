@@ -1,0 +1,162 @@
+@import "../variables.scss";
+
+.p1 { 
+  display: inline-block;
+  margin: 120px 0; 
+
+
+  .right {
+    @include text;
+    line-height: 21px;
+    width: 50%;
+  }
+  .toptitle {
+    width: 60%;
+  }
+  .Link {
+    color: $black;
+    text-decoration: underline;
+    margin-right: 3.2px;
+}
+
+  .Link:hover {
+    color: $yellow;
+  }
+   
+  .header {
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: $indigo;
+    letter-spacing: 1.0px;
+    text-align: left;
+  }
+}
+
+
+.categorytext {
+  margin-bottom: 20px;
+}
+
+.sensorimg {
+  width: 70%;
+  margin-top: 5%;
+  max-width: 300px;
+  position: relative;
+  display: flex;
+  float: right;
+
+  @media only screen and (max-width: 767px) {
+      margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+      display: block;
+      width: 70%;
+      margin: 20px auto;
+      margin-bottom: 100px;
+  }
+
+  .sensor1, .sensor2, .sensor3 {
+      position: absolute;
+      display: block;
+      left: 0;
+      transition: 1.2s all;
+      width: 100%;
+      user-select: none;
+
+      &:hover {
+          transition: 1.2s all;
+      }
+  }
+
+  .sensor1 {
+      z-index: 3; 
+      top: calc(50%);
+      transform: translateY(-110%);
+
+      &:hover {
+          transform: translateY(calc(-55px - 110%));
+      }
+
+      @media only screen and (max-width: 600px) {
+          top: 0;
+          transform: translateY(10%);
+          &:hover {
+              transform: translateY(calc(-55px + 10%));
+          }
+      }    
+  }
+
+  .sensor2 {
+      z-index: 2;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &:hover {
+          transform: translateY(calc(-55px - 50%));
+      }
+
+      @media only screen and (max-width: 600px) {
+          top: 0;
+          transform: translateY(50%);
+          &:hover {
+              transform: translateY(calc(-55px + 50%));
+          }
+      }    
+  }
+
+  .sensor3 {
+      z-index: 1;
+      top: 50%;
+      transform: translateY(10%);
+
+      &:hover {
+          transform: translateY(calc(-55px + 10%));
+      }
+
+      @media only screen and (max-width: 600px) {
+          top: 0;
+          transform: translateY(95%);
+          &:hover {
+              transform: translateY(calc(-55px + 95%));
+          }
+      }    
+  }    
+}
+
+.subtitle {
+  @include uppergraytext;
+  margin-bottom: 100px;
+}
+
+.category {
+  @include uppergraytext;
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+  margin-bottom: 12px;
+}
+
+.bodytext {
+  @include text;
+}
+
+.featuretext {
+  margin-top: 160px;
+  @include text;
+  font-size: 24px;
+  letter-spacing: -0.1px;
+  line-height: 45px;
+}
+
+.bodytext a {
+  @include text;
+  color: $indigo;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.bodytext a:hover {
+  color: $gray;
+}

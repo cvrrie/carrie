@@ -52,10 +52,10 @@ class Main extends PureComponent {
           <div className="projects">
             <div className="scrollanchor" ref={this.projectsRef} />
             <h2 className="heading">WORK</h2>
-            <Link to="/" className="nolink">
+            <Link to="/drugsensor" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
-                  <div className="title">DrugSensor</div>
+                  <div className="title">Making roads safer after legalization with DrugSensor</div>
                   <div className="words">Crafting the first iterations of screen interfaces for a roadside THC sensor used by Canadian law enforcement</div>
                   <span className="underlined-button">Case study coming soon!</span>
                 </div>
@@ -68,8 +68,8 @@ class Main extends PureComponent {
             <Link to="/mapp" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
-                  <div className="title">Enriching people's daily experiences through visual location tracking</div>
-                  <div className="words">A location based daily tracker app design.</div>
+                  <div className="title">Creating a map of every place you go</div>
+                  <div className="words">Enriching people's daily experiences through visual location tracking</div>
                   <span className="underlined-button">See UX case study &rarr;</span>
                 </div>
                 <div className="cardRight">

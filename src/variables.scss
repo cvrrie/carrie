@@ -1,9 +1,13 @@
 $mappColor: #43C6AC;
 $darkgray: #4b4b4b;
 $gray: #707070;
+$lightgray: rgb(204, 204, 204);
+$middlegray: #909090;
 $yellow: #FFC90C;
 $black: #2c2e30;
 $white: #ffffff;
+$green: #2F7736;
+$indigo: #2B009E;
 
 @mixin subtitle {
     font-size: 14px;
@@ -62,4 +66,14 @@ $white: #ffffff;
     font-size: 14px;
     text-align: left;
     font-family: "Karla";
+    line-height: 21px;
+}
+
+@mixin uppergraytext {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 14px;
+    color: $middlegray;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
