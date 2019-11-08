@@ -51,7 +51,7 @@ class Drugsensor extends PureComponent {
           </div>  
         </div>
         <br/><br/><br/>
-        <div className="category">Problem Space</div>
+        <div className="categorytitle">Problem Space</div>
         <div className="bodytext">
           The legalization of marijuana in Canada has caused police officers to need to make fast and accurate assessments of a 
           driver’s THC impairment. During my internship this summer at <a href="https://voyagelabs.io"> Voyage Labs</a>, I developed 

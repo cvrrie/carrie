@@ -57,7 +57,7 @@ class Main extends PureComponent {
                 <div className="cardLeft">
                   <div className="title">Making roads safer after legalization with DrugSensor</div>
                   <div className="words">Crafting the first iterations of screen interfaces for a roadside THC sensor used by Canadian law enforcement</div>
-                  <span className="underlined-button">See case study</span>
+                  <span className="underlined-button">See case study &rarr;</span>
                 </div>
                 <div className="cardRight">
                   <img className="sensorImage" src={sensors} alt="sensor image"/>
