@@ -29,12 +29,18 @@
     margin-bottom: 0px;
     font-weight: 600;
     color: $indigo;
-    letter-spacing: 1.0px;
+    letter-spacing: 0.8px;
     text-align: left;
   }
 }
 
-
+.categorytitle {
+  @include uppergraytext;
+  font-size: 25px;
+  color: $indigo;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
 .categorytext {
   margin-bottom: 20px;
 }
@@ -134,8 +140,14 @@
 .category {
   @include uppergraytext;
   letter-spacing: 1.5px;
-  margin-top: 30px;
   margin-bottom: 12px;
+}
+
+.categoryindigo {
+  @include uppergraytext;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+  color: $indigo;
 }
 
 .bodytext {
@@ -160,3 +172,16 @@
 .bodytext a:hover {
   color: $gray;
 }
+
+.imgcaption {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.greybg {
+  background-color: #fcfcfc;
+  padding: 35px 45px;
+}
+
