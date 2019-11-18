@@ -54,13 +54,19 @@ class Drugsensor extends PureComponent {
         <div id="words">
           During my internship this summer at <a href="https://voyagelabs.io"> Voyage Labs</a>, I developed 
           the initial prototype for the <b>interface of a saliva 
-          THC tester</b>, which will be implemented into law enforcement officers’ roadside drug testing procedures.
+          THC tester</b>, which will soon be implemented into law enforcement officers’ roadside drug testing procedures.
         </div>
-        <br/><br/>
+        <br/><br/><br/><br/>
         <div className="categorytitle">Problem Space</div>
         <div className="bodytext">
           The legalization of marijuana in Canada has caused police officers to need to make fast and accurate assessments of a 
-          driver’s THC impairment. 
+          driver’s THC impairment. Existing devices on the market are expensive, bulky, and imprecise, so police are often unable
+          to obtain solid evidence of drug impairment for arrest and court purposes. Using biosensor technology, Voyage Labs is developing
+          a small transportable device (around the size of an iPad) to allow police to insert and analyze saliva samples in a straightforward way.
+          <br/><br/>
+          My role on the team was to <b>ideate the entire user experience from scratch</b>, from the moment the police step out of their car, to the action of 
+          collecting saliva from the driver, to reading the results on the device. After solidifying this user flow, I got to <b>design the screen interfaces</b> for 
+          every step of the process.
         </div>
 
         <br/><br/>

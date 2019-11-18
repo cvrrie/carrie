@@ -46,12 +46,13 @@
 }
 .topname {
   @include text;
+  font-size: 18px;
   font-weight: 600;
   transition: 0.3s filter;
   margin: 0;
   margin-left: 5px;
   text-transform: uppercase;
-  letter-spacing: 2.0px;
+  letter-spacing: 2.5px;
 }
 
 
