@@ -50,13 +50,17 @@ class Drugsensor extends PureComponent {
             One product manager, two nanoengineers, one hardware manufacturer, one designer (myself)
           </div>  
         </div>
-        <br/><br/><br/>
+        <br/><br/>
+        <div id="words">
+          During my internship this summer at <a href="https://voyagelabs.io"> Voyage Labs</a>, I developed 
+          the initial prototype for the <b>interface of a saliva 
+          THC tester</b>, which will be implemented into law enforcement officers’ roadside drug testing procedures.
+        </div>
+        <br/><br/>
         <div className="categorytitle">Problem Space</div>
         <div className="bodytext">
           The legalization of marijuana in Canada has caused police officers to need to make fast and accurate assessments of a 
-          driver’s THC impairment. During my internship this summer at <a href="https://voyagelabs.io"> Voyage Labs</a>, I developed 
-          the initial prototype for the <b>interface of a saliva 
-          THC tester</b>, which is soon to be implemented into law enforcement officers’ roadside drug testing procedures.
+          driver’s THC impairment. 
         </div>
 
         <br/><br/>
