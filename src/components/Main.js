@@ -48,16 +48,15 @@ class Main extends PureComponent {
             <img src={carrie} className="portrait" alt="carrie" />
           </div>
 
-          <div className="words">
-            I'm currently a third-year student studying Physiology at McGill University in Montreal. I'm also interested in product design 
-            and thinking about ways that design changes the lives of people both immediately around me and around the world. 
-            <br/> <br/>
-            At the moment, I'm finding my stride in front-end development, illustration, and leading Design Collective, McGill's first design community.
+          <div id="words">
+            At the moment, I'm really excited about <a href="https://github.com/cvrrie">front-end development</a>, <a href="/illustrations">illustration</a>, and leading 
+            <a href="https://www.hercampus.com/school/mcgill/meet-founder-mcgills-newest-club-design-collective"> Design Collective</a>, McGill's first 
+            <a href="http://www.mcgilltribune.com/student-life/campus-spotlight-mcgill-design-collective-101719/"> design community</a>.
           </div>
 
           <div className="projects">
             <div className="scrollanchor" ref={this.projectsRef} />
-            <h2 className="heading">WORK</h2>
+            <h2 className="heading">work</h2>
             <Link to="/drugsensor" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">

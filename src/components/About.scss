@@ -8,6 +8,16 @@
     margin-top: 80px;
     @include text;
     line-height: 21px;
+
+    a {
+      color: $yellow;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    
+    a:hover {
+      color: $black;
+    }
   }
   .left {
     .image {
@@ -27,12 +37,7 @@
   }
    
   .header {
-    font-size: 28px;
-    margin-bottom: 50px;
-    margin-top: 0;
-    font-weight: 600;
-    color: $yellow;
-    letter-spacing: 1.2px;
+    @include textoutline;
   }
 
 }

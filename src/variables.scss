@@ -80,3 +80,14 @@ $indigo: #2B009E;
     letter-spacing: 2px;
     font-weight: 400;
 }
+
+@mixin textoutline {
+  font-family: 'Work Sans';
+  font-weight: 700;
+  -moz-text-fill-color: #fff;
+  -webkit-text-fill-color: #fff;
+  -moz-text-stroke-color: $yellow;
+  -webkit-text-stroke-color: $yellow;
+  -moz-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: 1.5px;
+}

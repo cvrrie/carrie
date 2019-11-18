@@ -8,13 +8,14 @@ class About extends PureComponent {
       <div className="about">
         
         <div className="left">
-          <h1 className="header">CARRIE WHO?</h1>
+          <h1 className="header">carrie who?</h1>
           <img src={pp} className="image" alt="carrie at nyc botanical garden" title="carrie at nyc botanical garden" />
         </div>
         <div className="right">
-          I’m Carrie, and I want to do design because I’m in love with the delight that you get when a product feels like it 
-          knows what you’re thinking before you do. I’m curious about the potential of design that is beyond the visual and 
-          how it shapes the role of a designer in the modern product process. 
+          I'm Carrie, and I'm obsessed with examining how things work. At McGill University, I study how human brains and bodies are 
+          wired — thinking about things like, "how do our brains decide what stimuli are important?". But I love designing products that enhance the human psyche because I get to ask, 
+          "how do <i>I</i> decide what questions are important?" Design is a way for me to meaningfully connect to people and create impact both 
+          immediately around me and around the world.
           <br/> <br/>
           I grew up in China and Calgary, Alberta, and now I’ve found my way to Montreal studying Physiology at McGill. My 
           undergrad science major has armed me with analytical skills and critical thinking, providing me with a unique 
