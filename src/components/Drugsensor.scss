@@ -4,14 +4,25 @@
   display: inline-block;
   margin: 120px 0; 
 
+  
 
   .right {
     @include text;
     line-height: 21px;
     width: 50%;
+
+    @media only screen and (max-width: 600px) {
+      width: 80%;
+      position: absolute;
+    }
+    
   }
   .toptitle {
     width: 60%;
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
   }
   .Link {
     color: $black;
@@ -31,7 +42,10 @@
     color: $indigo;
     letter-spacing: 0.8px;
     text-align: left;
+
+    
   }
+  
 }
 
 .categorytitle {
@@ -59,9 +73,12 @@
 
   @media only screen and (max-width: 600px) {
       display: block;
-      width: 70%;
-      margin: 20px auto;
-      margin-bottom: 100px;
+      width: 90%;
+      margin: 250px 10% 400px 10%;
+      margin-bottom: 400px;
+      position: relative;
+      
+      
   }
 
   .sensor1, .sensor2, .sensor3 {
@@ -204,6 +221,7 @@
   @media only screen and (max-width: 600px) {
       display: block;
       text-align: center;
+      
   }
   .left1 {
     width: 60%;
@@ -236,7 +254,7 @@
   color: $black;
   text-decoration: none;
   font-family: 'Karla';
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   transition: 0.3s filter;
   position: relative;
@@ -265,5 +283,10 @@
   transition: 0.3s width;
 }
 
+.drugimgs {
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+}
 
 

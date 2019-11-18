@@ -41,24 +41,27 @@ class Main extends PureComponent {
         <div className="Main">
           <div className="intro">
             <div className="left">
-                <h1 className="name">Hey, I'm Carrie!</h1>
-                <div className="words">
-                  I'm currently a third-year student studying Physiology <br/>at McGill University in Montreal. I'm also interested in <br/>product design 
-                  and thinking about ways that design <br/>changes the lives of people both immediately around <br/>me and around the world. 
-                  <br/> <br/>
-                  At the moment, I'm finding my stride in front-end <br/>development, illustration, and leading Design Collective, <br/>McGill's first design community.
-                </div>
+                <p className="topname">Hi, I'm</p>
+                <h1 className="name">carrie.</h1>
                 <a href="mailto:carrierong37@gmail.com" className="underlined-button">Drop me a hi!</a>
             </div>
             <img src={carrie} className="portrait" alt="carrie" />
           </div>
+
+          <div className="words">
+            I'm currently a third-year student studying Physiology at McGill University in Montreal. I'm also interested in product design 
+            and thinking about ways that design changes the lives of people both immediately around me and around the world. 
+            <br/> <br/>
+            At the moment, I'm finding my stride in front-end development, illustration, and leading Design Collective, McGill's first design community.
+          </div>
+
           <div className="projects">
             <div className="scrollanchor" ref={this.projectsRef} />
             <h2 className="heading">WORK</h2>
             <Link to="/drugsensor" className="nolink">
               <div className="projectCard">
                 <div className="cardLeft">
-                  <div className="title">Making roads safer after legalization with DrugSensor</div>
+                  <div className="title">DrugSensor</div>
                   <div className="words">Crafting the first iterations of screen interfaces for a roadside THC sensor used by Canadian law enforcement</div>
                   <span className="underlined-button">See case study &rarr;</span>
                 </div>
