@@ -148,6 +148,10 @@
   text-align: center;
   font-size: 100px;
   margin-top: 100px;
+
+  @media only screen and (max-width: 767px) {
+    margin: auto;
+  }
 }
 
 .projectCard:hover {
@@ -172,7 +176,6 @@
 
   box-shadow: 0 5px 30px rgba(0,0,0,.05);
   transition: 0.1s all;
-
 
   .title {
     font-weight: 600;
@@ -212,11 +215,8 @@
 
     img {
       height: auto;
-      width: auto;
       max-height: 100%;
       margin: auto;
-      margin-right: 0;
-      max-width: 100%;
     }    
 }
 
@@ -232,7 +232,7 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
     max-height: 100%;
   }
@@ -242,9 +242,11 @@
   display: block;
   padding: 25px 5px 0 5px;
   height: 100%;
+  margin: 40px 0;
+
 
   img {
-    max-width: 100%;
+    width: 150%;
     height: auto;
     margin-bottom: 30px !important;
   }
@@ -252,16 +254,13 @@
   .cardRight {
     text-align: center;
     margin: auto;
+    margin-top: 50px;
+    padding: 0;
   }
 
   .cardLeft {
     margin: 0 10px 0 25px;
     width: 80%;
-  }
-
-  .cardRight {
-    margin-top: 50px;
-    padding: 0;
   }
 
   .words {
