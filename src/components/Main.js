@@ -49,7 +49,8 @@ class Main extends PureComponent {
           </div>
 
           <div id="words">
-            At the moment, I'm really excited about <a href="https://github.com/cvrrie">front-end development</a>, <a href="/illustrations">illustration</a>, and leading 
+            I'm a product designer exploring how design can change the future of the world. 
+            <br/>At the moment, I'm really excited about <a href="https://github.com/cvrrie">front-end development</a>, <a href="/illustrations">illustration</a>, and leading 
             <a href="https://www.hercampus.com/school/mcgill/meet-founder-mcgills-newest-club-design-collective"> Design Collective</a>, McGill's first 
             <a href="http://www.mcgilltribune.com/student-life/campus-spotlight-mcgill-design-collective-101719/"> design community</a>.
           </div>
