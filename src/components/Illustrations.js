@@ -21,7 +21,7 @@ class Illustrations extends PureComponent {
     return (
        // eslint-disable-next-line
       <div className="Illustrations">
-        <h1 className="title">Illustrations</h1>
+        <h1 className="title">illustrations</h1>
         <p>In my free time, I like to explore Procreate, Illustrator, and different art styles. <br/> <br/>Try hovering</p>
         <img src={birdy} className="image" alt="birdy" title="Each stroke on this adorable fluff was a pain to draw" />
         <br/>

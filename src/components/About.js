@@ -6,9 +6,9 @@ class About extends PureComponent {
   render() {
     return (
       <div className="about">
-        
+        <h1 className="header">carrie who?</h1>
+
         <div className="left">
-          <h1 className="header">carrie who?</h1>
           <img src={pp} className="image" alt="carrie at nyc botanical garden" title="carrie at nyc botanical garden" />
         </div>
         <div className="right">

@@ -5,9 +5,10 @@
   margin: 120px 0; 
 
   .right {
-    margin-top: 80px;
     @include text;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 25px;
+    position: relative;
 
     a {
       color: $yellow;
@@ -23,8 +24,10 @@
     .image {
       max-width: 300px;
       animation: fade-up  1.0s;
+      margin: 5px 30px 30px 0;
     }
     margin-right: 50px;
+    float: left;
   }
   .Link {
     color: $black;
@@ -38,6 +41,7 @@
    
   .header {
     @include textoutline;
+    font-size: 80px;
   }
 
 }
